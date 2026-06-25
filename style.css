@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.backimg{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("images/netback.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 25px 10%;
+    position: relative;
+}
+
+.logo{
+    background-image: url("images/netlogo.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* cursor: pointer; */
+}
+
+.but{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Text */
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-bottom: 70px;
+}
+.header h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
+}
+.header h3{
+    font-size: 20px;
+    margin-top: 17px;
+}
+.header p{
+    font-size: 17px;
+    margin-top:35px;
+    font-weight: 500;
+}
+.fill{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.fill input{
+    color: white;
+    background-color: black;
+    padding: 18px 130px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.fill button{
+    color: white;
+    background-color: red;
+    padding: 18px 65px;
+    border-radius: 5px;
+}
+
+
+/* Pictues */
+.pics{
+    height: 1650px;
+}
+
+.tren{
+    margin-top: 40px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+.top{
+    display: flex;
+}
+.ione{
+    height: 260px;
+    width: 180px;
+    background-image: url("images/dhurandhar.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+.itwo{
+    height: 260px;
+    width: 180px;
+    background-image: url("images/strangers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.ithree{
+    height: 260px;
+    width: 180px;
+    background-image: url("images/warmac.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.ifour{
+    height: 260px;
+    width: 180px;
+    background-image: url("images/sharmashow.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.ifive{
+    height: 260px;
+    width: 180px;
+    background-image: url("images/onepiece.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+/* more reason to join */
+
+.join{
+    margin: 70px 150px;
+}
+.boxes{
+    display: flex;
+    gap: 17px;
+}
+.head1{
+    font-size: 23px;
+}
+.inside-cont{
+    height: 300px;
+    width: 280px;
+    color: white;
+    background-color: #1c1c3c;
+    margin-top: 25px;
+    border-radius: 5%;
+}
+.inside-cont h2{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.inside-cont p{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #dddddd;
+}
+.inside-cont i{
+    font-size: 3rem;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+/* Frequently Asked Questions */
+
+.asked{
+    margin-left: 150px;
+}
+.asked h2{
+    margin-bottom: 15px;
+}
+.ques p{
+    margin-top: 8px;
+}
+.what{
+    height: 85px;
+    width: 1140px;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding-top: 27px;
+    padding-left: 25px;
+}
+.what i{
+    padding-left: 900px;
+}
+.much{
+    height: 85px;
+    width: 1140px;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding-top: 27px;
+    padding-left: 25px;
+}
+.much i{
+    padding-left: 755px;
+}
+.can{
+    height: 85px;
+    width: 1140px;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding-top: 27px;
+    padding-left: 25px;
+}
+.can i{
+    padding-left: 855px;
+}
+.do{
+    height: 85px;
+    width: 1140px;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding-top: 27px;
+    padding-left: 25px;
+}
+.do i{
+    padding-left: 884px;
+}
+.watch{
+    height: 85px;
+    width: 1140px;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding-top: 27px;
+    padding-left: 25px;
+}
+.watch i{
+    padding-left: 765px;
+}
+.good{
+    height: 85px;
+    width: 1140px;
+    background-color: gray;
+    font-size: 1.5rem;
+    padding-top: 27px;
+    padding-left: 25px;
+}
+.good i{
+    padding-left: 820px;
+}
+
+/* last one before footer */
+
+.again p{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 17px;
+}
+.fill2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.fill2 input{
+    color: white;
+    background-color: black;
+    padding: 18px 220px;
+    border-radius: 2%;
+    border: 1px solid gray;
+}
+.fill2 button{
+    color: white;
+    background-color: red;
+    padding: 18px 65px;
+    border-radius: 5%;
+}
+
+/* footer */
+
+.footer{
+    height: 530px;
+    color: #dddddd;
+}
+.call{
+    margin-left: 150px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.detail{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail a{
+    margin-top: 15px;
+    margin-right: 200px;
+    display: block;
+    font-size: 15px;
+}
+.more-det{
+    color: gray;
+}
+.click{
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5%;
+    font-size: 15px;
+    gap: 5px;
+}
+.ind{
+    margin-left: 150px;
+    margin-top: 45px;
+    font-size: 15px;
+    color: gray;
+}
+.learn{
+    margin-left: 150px;
+    margin-top: 45px;
+    font-size: 13px;
+    color: gray;
+}
+.blue{
+    color: #007185;
+    font-size: 13px;
+}
